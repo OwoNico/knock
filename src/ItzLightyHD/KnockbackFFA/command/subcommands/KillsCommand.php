@@ -48,6 +48,8 @@ class KillsCommand extends BaseSubCommand
      */
     protected function prepare(): void
     {
+        $this->setPermission("knockbackffa.player");
+
         $this->registerArgument(0, new RawStringArgument("player", false));
     }
 }

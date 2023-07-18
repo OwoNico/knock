@@ -2,9 +2,10 @@
     "name": "itzlightyhd/knock",
     "description": "The classic and fully customizable minigame fun to play for PocketMine-MP.",
     "type": "library",
-    "require-dev": {
+    "require": {
         "pocketmine/pocketmine-mp": "^5.0.0",
-        "cortexpe/commando": "dev-PM5"
+        "cortexpe/commando": "dev-PM5",
+        "muqsit/simplepackethandler": "*"
     },
     "license": "MIT",
     "authors": [
@@ -30,6 +31,5 @@
                 }
             }
         }
-    ],
-    "require": {}
+    ]
 }

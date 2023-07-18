@@ -42,5 +42,6 @@ class LeaveCommand extends BaseSubCommand
      */
     protected function prepare(): void
     {
+        $this->setPermission("knockbackffa.player");
     }
 }
