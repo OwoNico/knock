@@ -14,7 +14,7 @@ class JoinCommand extends BaseSubCommand
 {
     public function __construct(Loader $plugin)
     {
-        parent::__construct($plugin, "join", "Join the minigame", []);
+        parent::__construct("join", "Join the minigame", []);
     }
 
     /**
